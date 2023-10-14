@@ -1,0 +1,19 @@
+/*Java String program to check whether a string is a Palindrome*/
+package com.practiceinmain;
+
+public class StringPalindrom {
+	
+	public static void main(String[] args) {
+		String str="level";
+	
+		String str1 = "";
+		
+		for(int i = str.length()-1; i>=0; i--) {
+			char ch = str.charAt(i);
+			str1 = str1+ch;
+		}
+		System.out.println("Is both strings are equal: "+str.equals(str1)+"\n "
+				+ "String \""+str+"\" is palindrom");
+	}
+
+}
