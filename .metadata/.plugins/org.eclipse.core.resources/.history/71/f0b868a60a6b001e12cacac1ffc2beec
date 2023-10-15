@@ -1,0 +1,15 @@
+/*Java String Program to Iterate Over Characters in String*/
+package com.practiceinmain;
+
+public class StringCharacterIterator {
+	
+	public static void main(String[] args) {
+		String str = "Java is a programming language";
+
+		//first way of iteration using for loop
+		for(int i = 0; i<=str.length()-1;i++) {
+			System.out.println(str.charAt(i));
+		}
+	}
+
+}
